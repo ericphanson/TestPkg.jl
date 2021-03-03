@@ -1,0 +1,13 @@
+name = "TestPkg"
+uuid = "37f6bc05-9e90-43d5-90c6-4d69d7097606"
+authors = ["Eric Hanson <5846501+ericphanson@users.noreply.github.com>"]
+version = "0.1.0"
+
+[compat]
+Aqua = "0.5"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+
+[targets]
+test = ["Aqua"]
